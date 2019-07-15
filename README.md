@@ -23,6 +23,8 @@ Weather App from scratch with HTML, CSS and JavaScript.
 ![hourly-view](./design/hourly-view.png "Hourly View")
 ![menu-view](./design/menu-view.png "Menu View")
 
+## Status
+Project is: _in progress_
 
 
 ## Contact

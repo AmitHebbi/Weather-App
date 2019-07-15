@@ -19,7 +19,7 @@ Weather App from scratch with HTML, CSS and JavaScript.
 - Build front-end application from ground up with no framework.
 
 ## Screenshots
-![daily-view](./design/daily-view.png "Hourly View")
+![daily-view](./design/daily-view.png "Daily View")
 ![hourly-view](./design/hourly-view.png "Hourly View")
 ![menu-view](./design/menu-view.png "Menu View")
 

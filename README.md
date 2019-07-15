@@ -18,3 +18,12 @@ Weather App from scratch with HTML, CSS and JavaScript.
 
 - Build front-end application from ground up with no framework.
 
+## Screenshots
+![daily-view](./design/daily-view.png?raw=true "Daily View")
+![hourly-view](./design/daily-view.png?raw=true "Hourly View")
+![menu-view](./design/daily-view.png?raw=true "Menu View")
+
+
+
+## Contact
+Created by [@AmitHebbi](https://github.com/AmitHebbi) - feel free to contact me!

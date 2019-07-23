@@ -28,4 +28,4 @@ Project is: _in progress_
 
 
 ## Contact
-Created by [@AmitHebbi](https://github.com/AmitHebbi) - feel free to contact me!
+Created by [@AmitHebbi](https://github.com/AmitHebbi)

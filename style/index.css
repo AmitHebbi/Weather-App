@@ -1,86 +1,6 @@
 /* ================================ CSS Reset  ================================*/
 
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -89,17 +9,7 @@ video {
     vertical-align: baseline;
 }
 
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display: block;
 }
 
@@ -107,23 +17,18 @@ body {
     line-height: 1;
 }
 
-ol,
-ul {
+ol, ul {
     list-style: none;
 }
 
-blockquote,
-q {
+blockquote, q {
     quotes: none;
 }
 
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-    content: '';
-    content: none;
-}
+    blockquote:before, blockquote:after, q:before, q:after {
+        content: '';
+        content: none;
+    }
 
 table {
     border-collapse: collapse;
@@ -139,17 +44,17 @@ table {
     height: 32px;
 }
 
-.lds-dual-ring:after {
-    content: " ";
-    display: block;
-    width: 32px;
-    height: 32px;
-    margin: 1px;
-    border-radius: 50%;
-    border: 5px solid #353B48;
-    border-color: #353B48 transparent #353B48 transparent;
-    animation: lds-dual-ring 1.2s ease-in-out infinite;
-}
+    .lds-dual-ring:after {
+        content: " ";
+        display: block;
+        width: 32px;
+        height: 32px;
+        margin: 1px;
+        border-radius: 50%;
+        border: 5px solid #353B48;
+        border-color: #353B48 transparent #353B48 transparent;
+        animation: lds-dual-ring 1.2s ease-in-out infinite;
+    }
 
 @keyframes lds-dual-ring {
     0% {
@@ -170,35 +75,33 @@ table {
     transform: translate3d(0, 0, 0);
 }
 
-.ripple:after {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    pointer-events: none;
-    background-image: radial-gradient(circle, #000 10%, transparent 10.01%);
-    background-repeat: no-repeat;
-    background-position: 50%;
-    transform: scale(10, 10);
-    opacity: 0;
-    transition: transform .5s, opacity 1s;
-}
+    .ripple:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        pointer-events: none;
+        background-image: radial-gradient(circle, #000 10%, transparent 10.01%);
+        background-repeat: no-repeat;
+        background-position: 50%;
+        transform: scale(10, 10);
+        opacity: 0;
+        transition: transform .5s, opacity 1s;
+    }
 
-.ripple:active:after {
-    transform: scale(0, 0);
-    opacity: .2;
-    transition: 0s;
-}
+    .ripple:active:after {
+        transform: scale(0, 0);
+        opacity: .2;
+        transition: 0s;
+    }
 
 
 /* ================================ General Style ================================ */
 
-html,
-body,
-main {
+html, body, main {
     width: 100%;
     height: 100%;
 }
@@ -251,7 +154,7 @@ button {
 /* display  */
 
 .display-none {
-    display: none;
+    display: none !important;
 }
 
 
@@ -278,9 +181,9 @@ button {
     align-items: center;
 }
 
-.flex-container > * {
-    flex: 1 1 0;
-}
+    .flex-container > * {
+        flex: 1 1 0;
+    }
 
 .disabled {
     background-color: #ddd !important;
@@ -329,9 +232,9 @@ button {
     align-items: center;
 }
 
-#temperature-summary-container > div:nth-child(2) {
-    text-align: center;
-}
+    #temperature-summary-container > div:nth-child(2) {
+        text-align: center;
+    }
 
 #degrees-label {
     font-size: 60px;
@@ -355,16 +258,16 @@ button {
     text-align: center;
 }
 
-#humidity-wind-container > div img {
-    vertical-align: middle;
-    position: relative;
-    top: -3px;
-    margin-right: 5px;
-}
+    #humidity-wind-container > div img {
+        vertical-align: middle;
+        position: relative;
+        top: -3px;
+        margin-right: 5px;
+    }
 
-#humidity-wind-container > div span {
-    font-size: 18px;
-}
+    #humidity-wind-container > div span {
+        font-size: 18px;
+    }
 
 
 /* ================================ Lower Panel================================ */
@@ -395,22 +298,22 @@ button {
     transform: translate(-50%, -50%);
 }
 
-#toggle-hourly-weather img {
-    transition: transform .5s;
-}
+    #toggle-hourly-weather img {
+        transition: transform .5s;
+    }
 
 .weather-box {
     position: relative;
     margin-bottom: 15px;
 }
 
-.weather-box > div:last-child {
-    text-align: right;
-}
+    .weather-box > div:last-child {
+        text-align: right;
+    }
 
-.weather-box > div:last-child > div:last-child {
-    flex: .5 .5 0;
-}
+        .weather-box > div:last-child > div:last-child {
+            flex: .5 .5 0;
+        }
 
 
 /* current day hint */
@@ -424,7 +327,7 @@ button {
     border-radius: 100%;
     background-color: #353B48;
     left: -15px;
-    top: 50%;
+    top: calc(50%);
     transform: translateY(-50%);
 }
 
@@ -448,9 +351,9 @@ button {
     height: 40%;
 }
 
-#hourly-weather-wrapper > div > div:last-child {
-    color: #636E72;
-}
+    #hourly-weather-wrapper > div > div:last-child {
+        color: #636E72;
+    }
 
 
 /* ================================ Menu ================================ */
@@ -466,11 +369,11 @@ button {
     transition: right .5s;
 }
 
-#menu-container > div {
-    background-color: rgba(53, 59, 72, 0.9);
-    width: 100%;
-    height: 100%;
-}
+    #menu-container > div {
+        background-color: rgba(53, 59, 72, 0.9);
+        width: 100%;
+        height: 100%;
+    }
 
 #close-menu-btn {
     position: absolute;
@@ -499,17 +402,17 @@ button {
     padding-bottom: 5px;
 }
 
-#location-input::-webkit-input-placeholder {
-    color: #acacac;
-}
+    #location-input::-webkit-input-placeholder {
+        color: #acacac;
+    }
 
-#location-input::-moz-input-placeholder {
-    color: #acacac;
-}
+    #location-input::-moz-input-placeholder {
+        color: #acacac;
+    }
 
-#location-input::-o-input-placeholder {
-    color: #acacac;
-}
+    #location-input::-o-input-placeholder {
+        color: #acacac;
+    }
 
 #add-city-btn {
     background-color: #EE5253;
@@ -540,13 +443,13 @@ button {
     margin-bottom: 20px;
 }
 
-.saved-city-box div:first-child {
-    flex: 5 5 0;
-}
+    .saved-city-box div:first-child {
+        flex: 5 5 0;
+    }
 
-.saved-city-box div:last-child {
-    text-align: right;
-}
+    .saved-city-box div:last-child {
+        text-align: right;
+    }
 
 .remove-saved-city {
     color: #EE5253;

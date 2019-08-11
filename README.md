@@ -24,7 +24,7 @@ Weather App from scratch with HTML, CSS and JavaScript.
 ![menu-view](./design/menu-view.png "Menu View")
 
 ## Status
-Project is: _in progress_
+Project is: _Completed_
 
 
 ## Contact

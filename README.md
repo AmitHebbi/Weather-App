@@ -10,7 +10,7 @@ Weather App from scratch with HTML, CSS and JavaScript.
 
 - Build complexe user interface with Flexbox.
 
-- Use an API (for this we will use two different API's in order to get the weather data for our web app: Dark Sky & Open Cage Data).
+- Use an API (for this we will use three different API's in order to get the weather data for our web app: Dark Sky , Open Cage Data, Google Maps API).
 
 - Write modular JavaScript (here we will use the module pattern while we will write the code for our weather app).
 

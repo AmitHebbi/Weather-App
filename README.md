@@ -24,7 +24,7 @@ Weather App from scratch with HTML, CSS and JavaScript.
 ![menu-view](./design/menu-view.png "Menu View")
 
 ## Status
-Project is: _Completed_
+_Completed_
 https://play.google.com/store/apps/details?id=io.hebbi.weather
 
 ## Contact
